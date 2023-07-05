@@ -1,0 +1,16 @@
+{
+  "name": "crawl-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  },
+  "scripts": {
+    "start": "npx playwright test "
+  },
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.1",
+    "date-fns": "^2.30.0"
+  }
+}
