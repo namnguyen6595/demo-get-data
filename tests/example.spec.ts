@@ -9,7 +9,7 @@ import {
 } from "@playwright/test";
 
 import { readFile, writeFile } from "fs/promises";
-import { TECH_STACK } from "../data/constant";
+import { TECH_STACK } from "../helpers/constant";
 import JSON2CSVParser from "@json2csv/plainjs/dist/mjs/Parser";
 import { Parser } from "@json2csv/plainjs";
 import { format } from "date-fns";

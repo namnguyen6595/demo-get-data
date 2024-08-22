@@ -7,7 +7,7 @@
     "@playwright/test": "^1.35.1"
   },
   "scripts": {
-    "start": "npx playwright test "
+    "start": "npx playwright test  ./tests/pnj-page.spec.ts"
   },
   "dependencies": {
     "@json2csv/plainjs": "^7.0.1",
